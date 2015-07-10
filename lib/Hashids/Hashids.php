@@ -278,8 +278,9 @@ class Hashids implements HashGenerator {
 			}
 			
 		}
-		
-		return $ret;
+		#converts array to string no need any more to bother in front end.
+		foreach($ret as $rets);
+		return $rets;
 		
 	}
 	
